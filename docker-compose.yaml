@@ -1,0 +1,7 @@
+services:
+  python-docker:
+    build: .
+    container_name: python-docker
+    volumes:
+      - .:/app
+    tty: true
